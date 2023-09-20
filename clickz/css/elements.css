@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 80px;
+
+    background-color: #1e1e1e;
+    /* border: 1px solid; */
+    /* background: url('/images/header.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.menu{
+    border-bottom: 1px solid white;
+    display: flex;
+    height: 80px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    /* border: 1px solid red; */
+}
+
+.logo{
+    height: inherit;
+    width: 10%;
+    /* border: 1px solid blue; */
+}
+.fr{
+    margin-left: 60px;
+}
+.logo h6{
+    
+    line-height: 80px;
+    font-size: 25px;
+    text-align: center;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+.links{
+    height: inherit;
+    width: 75%;
+    /* border: 1px solid blue;
+  */
+}
+.links ul{
+    display: flex;
+}
+.links ul li {
+    list-style: none;
+}
+.links ul li a{
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    line-height: 80px;
+    padding: 0px 20px;
+}
+
+.icons{
+    height: inherit;
+    width: 15%;
+    /* border: 1px solid blue; */
+
+}
+.icons p{
+    line-height: 80px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.icons p i{
+    padding: 0px 10px;
+    transition-duration: 3s;
+}
+.icons p i:hover{
+    transform: rotate(360deg);
+}
+/* /* .snake{
+    height: 600px;
+    border: 1px solid;
+    width: 33%;
+}
+.snake img{
+    height: 100%;
+    width: 100%;
+} */
+.elements{
+    height: 800px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.e1{
+    height: inherit;
+    width: 60%;
+    /* border: 1px solid; */
+    background:url('/images/pexels-samad-ismayilov-735552.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.e2{
+    height: inherit;
+    width: 40%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #1f2022;
+}
+.e2 h1{
+    font-size: 60px;
+    color: white;
+}
+.e2 p{
+    color: white;
+    font-size: 40px;
+    text-align: justify;
+    padding: 0px 25px;
+}
+.e2 button{
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border: 1px solid white;
+
+}
+.e2 button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.servicescontainer{
+
+    height: 300px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+.services{
+    width: 80%;
+    height: inherit;
+    /* border: 1px solid; */
+}
+.serparent{
+    display: flex;
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+.b1,.b2,.b3{
+    width: 30%;
+    height: 250px;
+    /* border: 1px solid; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.b1 p{
+    width: 100%;
+    text-align: center;
+}
+.b1 h3{
+    width: 100%;
+    text-align: center;
+
+}
+.para{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 20px;
+
+}
+.b2 p{
+    width: 100%;
+    text-align: center;
+}
+.b2 h3{
+    width: 100%;
+    text-align: center;
+
+}
+.para{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 20px;
+
+}
+.b3 p{
+    width: 100%;
+    text-align: center;
+}
+.b3 h3{
+    width: 100%;
+    text-align: center;
+
+}
+.para{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 20px;
+
+}
+
+
+.fa-camera{
+    font-size: 35px;
+}
+.fa-image{
+    font-size: 35px;
+
+}
+.fa-video{
+    font-size: 35px;
+
+}
+.instagram{
+    height: 100px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+
+}
+.ins{
+    margin-left: 10px;
+}
+.insimage{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    /* border: 1px solid; */
+    flex-wrap: wrap;
+}
+.ins-box{
+    width: 25%;
+    /* border: 1px solid; */
+    height: 350px;
+}
+.ins-box:hover{
+    cursor: pointer;
+}
+.ins-box img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+.foot{
+    height: 400px;
+    /* border: 1px solid; */
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footpar{
+    width: 80%;
+    /* border: 1px solid white; */
+    height: 350px;
+}
+.footitemparent{
+    /* border: 1px solid green; */
+    height: 350px;
+    display: flex;
+
+
+}
+.ft{
+    height: 350px;
+    width: 25%;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid white;
+}
+.ftlogoimg{
+    height: 50px;
+    /* border: 1px solid blue; */
+}
+.ftlogoimg h5{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.ftlogodesc{
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+    padding: 10px 15px;
+}
+.ftlogoicon p{
+
+    text-align: center;
+}
+.ftlogoicon p a{
+    padding: 5px 10px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.ftnavlogo{
+    height: 50px;
+    /* border: 1px solid red; */
+}
+.ftnavlogo h5{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.ftlinks li{
+    text-align: center;
+    padding: 10px 0px;
+
+    list-style: none;
+}
+.ftlinks a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.ftcontactlogo{
+    height: 50px;
+    /* border: 1px solid red; */
+
+}
+.ftcontactlogo h5{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.ftcontactdesc p{
+    color: white;
+    font-size: 22px;
+
+    text-align: justify;
+    padding: 10px 15px;
+}
+.ftsublogo{
+    height: 50px;
+    /* border: 1px solid red; */
+
+
+}
+.ftsublogo h5{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.ft input{
+    background-color: grey;
+    height: 40px;
+    width: 100%;
+}
+ ::placeholder{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.ft button{
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+}
+.ft button:hover{
+    cursor: pointer;
+}

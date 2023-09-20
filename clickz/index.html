@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Open+Sans:wght@700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<style>
+    .main{
+        /* display: inline-block; */
+        /* padding: 0; */
+        width: 33.3%;
+        height: 300px;
+    }
+    .main img{
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<style type="text/css">
+/* .container { } */
+    .snake{
+        position: relative;
+        overflow: hidden;
+    }
+    .overlay{
+        position: absolute;
+        opacity: 0.7;
+        font-size:28px;
+        text-align: center;
+        padding-top: 220px;
+        background-color: #222;
+        z-index: 2;
+
+    color:#fff;
+    }
+    .overlay .title{
+        font-size: 25px;
+        font-weight: bold;
+        display: block;
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    .description{
+        padding-top: 10px;
+        display: block;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
+</style>
+
+</head>
+<body>
+    <div class="header">
+        <div class="menu">
+            <div class="logo">
+
+                <h6><a href="">Clickz</a></h6>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="index.html" class="fr">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="elements.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="icons">
+                <p><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-x-twitter"></i><i class="fa-brands fa-youtube"></i></p>
+            </div>
+            <div class="desc">
+                <H6>NATURE BEAUTY</H6>
+                <h1>MIAMI LAKE</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <!-- <div class="aboutcontainer">
+        <div class="about">
+            <div class="abouutparent">
+                <div class="abtc1">
+                    <h1>I Click Moment, that you love</h1>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
+                    <div class="sign">
+                        <img src="images/singneture.png.webp" alt="">
+                    </div>
+                </div>
+                <div class="abtc2"></div>
+                <div class="abtc3">
+                    <div class="abtc3img">
+                        <img src="images/years.png.webp" alt="">
+                    </div>
+                    <h6>Years Of Experience</h6>
+                    <p>"A gray cat slinks past a wooden house. There’s has something a little intimidating attempting to describe.</p>
+                    <button>MY WORK</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- image gallery -->
+    <div class="container">
+    <div class="main col-md-4 snake">
+        <div class="overlay"><span class="title">NATURE BEAUTY</span>
+        <span class="description">STREET SHOT</span></div>
+        <img class="" src="images/forest-3622519_640.jpg"/>
+</div>
+<div class="main col-md-4 snake">
+    <div class="overlay"><span class="title">NATURE BEAUTY</span>
+        <span class="description">STREET SHOT</span></div>
+        <img class="" src="images/road-220058_640.jpg"/>
+</div>
+<div class="main col-md-4 snake">
+    <div class="overlay"><span class="title">NATURE BEAUTY</span>
+        <span class="description">STREET SHOT</span></div>
+        <img class="" src="images/mountains-1587287_640.jpg"/>
+</div>
+<div class="main col-md-4 snake">
+    <div class="overlay"><span class="title">NATURE BEAUTY</span>
+        <span class="description">STREET SHOT</span></div>
+    <img class="" src="images/train-1728537_640.jpg"/>
+</div>
+<div class="main col-md-4 snake">
+    <div class="overlay"><span class="title">NATURE BEAUTY</span>
+        <span class="description">STREET SHOT</span></div>
+    <img class="" src="images/sunrise-1014712_640.jpg"/>
+</div>
+<div class="main col-md-4 snake">
+    <div class="overlay"><span class="title">NATURE BEAUTY</span>
+        <span class="description">STREET SHOT</span></div>
+    <img class="" src="images/people-2591874_640.jpg"/>
+</div>
+
+</div>
+<div class="idocontainer">
+    <div class="idobox">
+        <h1>I do for you</h1>
+        <div class="idoparent">
+            <div class="idochilda">
+                <div class="idimage">
+                    <img src="images/blog1.jpg" alt="">
+                </div>
+                <div class="iddesc">
+                    <h5>Event Photography</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error earum inventore natus impedit quod harum rem unde aspernatur dolor animi.</p>
+                </div>
+            </div>
+            <div class="idochildb">
+                <div class="idimage">
+                    <img src="images/blog2.jpg" alt="">
+                </div>
+                <div class="iddesc">
+                    <h5>Wedding Photography</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error earum inventore natus impedit quod harum rem unde aspernatur dolor animi.</p>
+
+                </div>
+
+            </div>
+            <div class="idochildc">
+                <div class="idimage">
+                    <img src="images/blog3.jpg" alt="">
+                </div>
+                <div class="iddesc">
+                    <h5>Family Photography</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error earum inventore natus impedit quod harum rem unde aspernatur dolor animi.</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="testimonial-section">
+    <h1>Testimonial</h1>
+    <div class="testimonial-pic">
+        <img class="active" src="images/face-01.jpg" data-alt="tab1">
+        <img src="images/face-02.jpg" data-alt="tab2">
+        <img src="images/face-03.jpg" data-alt="tab3">
+        <img src="images/face-04.jpg" data-alt="tab4">
+    </div>
+    <div class="testimonial">
+        <div class="content active" id="tab1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis adipisci molestias harum,
+                blanditiis placeat reiciendis doloribus sequi soluta error similique. Architecto harum obcaecati
+                voluptatum voluptatem labore rerum, qui aut, dolore recusandae, inventore id reprehenderit placeat
+                sunt minus! Nobis repudiandae ut repellendus vitae! Assumenda maiores perferendis doloremque
+                deserunt esse? Incidunt tenetur ratione obcaecati porro dolorem explicabo hic mollitia velit.
+                Nesciunt, cumque quia. Reiciendis quas praesentium magni, aspernatur sint incidunt quidem.</p>
+            <p>Sally, Web Desginer</p>
+        </div>
+        <div class="content" id="tab2">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate culpa at error aliquid nihil
+                blanditiis vero suscipit dolore enim dolor labore aliquam, earum voluptatem sequi dolorum obcaecati
+                corporis nemo asperiores numquam non. Optio voluptatum sit quas temporibus quibusdam et recusandae
+                accusamus eius doloremque quae assumenda dolore laudantium veritatis, quaerat ipsam modi fugit dicta
+                maiores, consequatur quam blanditiis aliquid! Obcaecati rem itaque in impedit iure accusantium
+                maiores magnam odit recusandae excepturi.</p>
+            <p>Amy, Graphic Designer</p>
+        </div>
+        <div class="content" id="tab3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem suscipit deleniti recusandae aut
+                dolorum itaque eum optio facere. Labore sapiente, dicta voluptatum molestiae repudiandae omnis
+                voluptatibus cupiditate et harum sunt illo inventore perferendis? Accusantium soluta excepturi
+                quasi. Voluptates ipsam dolore temporibus exercitationem voluptatem minima saepe architecto ea,
+                tempore iusto, similique, quis illum minus recusandae ut ad magni laboriosam totam. Iure ab itaque,
+                quis repellat alias voluptates illo possimus. Fugit, illo.</p>
+            <p>Jung Ho, Developer</p>
+        </div>
+        <div class="content" id="tab4">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident unde quo ipsum totam fuga
+                consequuntur aliquid. Vero laboriosam ullam, beatae aliquam mollitia dignissimos quae delectus
+                placeat, sunt obcaecati iste amet ea cupiditate non iusto reiciendis recusandae porro quis illo?
+                Modi dolorum voluptatem iste, tempore, ab animi provident voluptate laborum repellat in unde
+                voluptates perferendis quo quia asperiores saepe sequi autem harum totam? Adipisci, consequuntur
+                doloremque similique eaque reprehenderit cum blanditiis.</p>
+            <p>Chris, Printing Desinger</p>
+        </div>
+    </div>
+</div>
+<div class="plancontainer">
+    <div class="planbox">
+        <h1>
+            Choose a plan that suit you
+        </h1>
+        <div class="planparent">
+            <div class="planchild">
+                <div class="btn1">
+                    <button>Photography</button>
+                </div>
+                <div class="plandesc">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores error cum, ducimus saepe laudantium maxime adipisci magnam iusto pariatur eaque incidunt illo quae qui tempore mollitia eius reiciendis? Necessitatibus, beatae.
+                    </p>
+                    <button>CHOOSE THIS PLAN</button>
+                </div>
+            </div>
+            <div class="planchild">
+                <div class="btn1">
+                    <button>Photography</button>
+                </div>
+                <div class="plandesc">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores error cum, ducimus saepe laudantium maxime adipisci magnam iusto pariatur eaque incidunt illo quae qui tempore mollitia eius reiciendis? Necessitatibus, beatae.
+                    </p>
+                    <button>CHOOSE THIS PLAN</button>
+
+                </div>
+
+            </div>
+            <div class="planchild">
+                <div class="btn1">
+                    <button>Photography</button>
+                </div>
+                <div class="plandesc">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores error cum, ducimus saepe laudantium maxime adipisci magnam iusto pariatur eaque incidunt illo quae qui tempore mollitia eius reiciendis? Necessitatibus, beatae.
+                    </p>
+                    <button>CHOOSE THIS PLAN</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="insta">
+    <div class="instabox ina">
+        <div class="inadiv">
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+    <div class="instabox inb">
+        <div class="inadiv">
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+
+    </div>
+    <div class="instabox inc">        <div class="inadiv">
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+</div>
+    <div class="instabox ind">
+        <div class="inadiv">
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+
+    </div>
+    <div class="instabox ine">        <div class="inadiv">
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+</div>
+</div>
+<!-- footer -->
+<div class="foot">
+    <div class="footpar">
+        <div class="footitemparent">
+            <div class="ft ftlogo">
+                <div class="ftlogoimg">
+                    <h5>Clickz</h5>
+                </div>
+                <div class="ftlogodesc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ea at cumque ad delectus tenetur. Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="ftlogoicon">
+                    <p>                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </p>
+
+                </div>
+
+            </div>
+            <div class="ft ftnav">
+                <div class="ftnavlogo">
+                    <h5>Navigation</h5>
+
+                </div>
+                <div class="ftlinks">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="ft ftcontact">
+                <div class="ftcontactlogo">
+                    <h5>Contact</h5>
+
+                </div>
+                <div class="ftcontactdesc">
+                    <p>
+                        87/A,Green Lane,CA 6732 <br><br>
+                        Real State <br><br>
+                        info@Clickz.com <br> <br>
+                        +10 222 555 5689
+                    </p>
+                </div>
+                
+
+
+            </div>
+            <div class="ft">
+                <div class="ftsublogo">
+                    <h5>Subscribe</h5>
+
+                </div>
+                <input type="email" class="inp" placeholder="Enter Your Email">
+                <button>SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/snake.min.js">
+	
+</script>
+<script>$(".snake").snakeify({speed: 150});</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+    $('.testimonial-pic img').click(function () {
+        $(this).addClass('active')
+        $(this).siblings().removeClass('active')
+
+        $('.testimonial .content').removeClass('active')
+        $('#' + $(this).attr('data-alt')).addClass('active')
+
+        // tab1  ==  $(this).attr('data-alt')
+    })
+</script>
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36251023-1']);
+_gaq.push(['_setDomainName', 'jqueryscript.net']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script><script>
+try {
+fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+return true;
+}).catch(function(e) {
+var carbonScript = document.createElement("script");
+carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+carbonScript.id = "_carbonads_js";
+document.getElementById("carbon-block").appendChild(carbonScript);
+});
+} catch (error) {
+console.log(error);
+}
+</script>
+
+
+</body>
+</html>

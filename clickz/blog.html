@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clickz</title>
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Open+Sans:wght@700&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="http://www.jqueryscript.net/css/jquerysctipttop.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <style>
+      .main {
+        /* display: inline-block; */
+        /* padding: 0; */
+        width: 33.3%;
+        height: 300px;
+      }
+      .main img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <style type="text/css">
+      /* .container { } */
+      .snake {
+        position: relative;
+        overflow: hidden;
+      }
+      .overlay {
+        position: absolute;
+        opacity: 0.7;
+        font-size: 28px;
+        text-align: center;
+        padding-top: 220px;
+        background-color: #222;
+        z-index: 2;
+
+        color: #fff;
+      }
+      .overlay .title {
+        font-size: 25px;
+        font-weight: bold;
+        display: block;
+        width: 100%;
+        font-family: "Open Sans", sans-serif;
+      }
+      .description {
+        padding-top: 10px;
+        display: block;
+        font-family: "Ubuntu", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="menu">
+        <div class="logo">
+          <h6><a href="">Clickz</a></h6>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="index.html" class="fr">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="elements.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="icons">
+          <p>
+            <i class="fa-brands fa-facebook-f"></i
+            ><i class="fa-brands fa-instagram"></i
+            ><i class="fa-brands fa-x-twitter"></i
+            ><i class="fa-brands fa-youtube"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- blog header -->
+    <div class="blogheader">
+      <h1>Nature Photoshoot</h1>
+      <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+      <button>Explore Gallery</button>
+    </div>
+<!-- categories -->
+<div class="catcontainer">
+    <div class="catchild">
+        <div class="catpar">
+            <div class="cat1">
+                <div class="cbox">
+                    <h5>SOCIAL LIFE</h5>
+                    <hr color="white" width="80%">
+                    <h6>Enjoy your social life together</h6>
+                </div>
+            </div>
+            <div class="cat2">
+                <div class="cbox">
+                    <h5>POLITICS</h5>
+                    <hr color="white" width="80%">
+                    <h6>Be a part of politics</h6>
+
+                </div>
+
+            </div>
+            <div class="cat3">
+                <div class="cbox">
+                    <h5>FOOD</h5>
+                    <hr color="white" width="80%">
+                    <h6>Let the food be finished</h6>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- blg -->
+<div class="blgcontainer">
+  <div class="blg">
+    <div class="blgitems">
+      <div class="blgdesc">
+        <p>Food,Technology,Politics</p>
+        <h6>Mark wiens</h6><i class="fa-regular fa-user"></i>
+        <h6>12 Dec 2017</h6><i class="fa-regular fa-calendar"></i>
+        <h6>1.2 M Views</h6><i class="fa-regular fa-eye"></i>
+        <h6>5 Comments</h6><i class="fa-regular fa-comment"></i>
+
+      </div>
+      <div class="blgimg">
+        <div class="blgchildimg">
+          <img src="images/m-blog-1.jpg.webp" alt="">
+        </div>
+        <div class="blgchilddesc">
+          <h5>Astronoumy Binoculares A Great Inititative</h5>
+          <p>MCSE boot camps have its supporters and its detractors. </p>
+          <button>View More</button>
+        </div>
+
+      </div>
+      <div class="blgdesc">
+        <p>Food,Technology,Politics</p>
+        <h6>Mark wiens</h6><i class="fa-regular fa-user"></i>
+        <h6>1 Jan 2022</h6><i class="fa-regular fa-calendar"></i>
+        <h6>1.2 M Views</h6><i class="fa-regular fa-eye"></i>
+        <h6>7 Comments</h6><i class="fa-regular fa-comment"></i>
+
+      </div>
+      <div class="blgimg">
+        <div class="blgchildimg">
+          <img src="images/m-blog-2.jpg.webp" alt="">
+        </div>
+        <div class="blgchilddesc">
+          <h5>The Basics Of Buying Telescope</h5>
+          <p>MCSE boot camps have its supporters and its detractors. </p>
+          <button>View More</button>
+        </div>
+
+      </div>
+      <div class="blgdesc">
+        <p>Food,Technology,Politics</p>
+        <h6>Mark wiens</h6><i class="fa-regular fa-user"></i>
+        <h6>5 Jan 2021</h6><i class="fa-regular fa-calendar"></i>
+        <h6>5.1 M Views</h6><i class="fa-regular fa-eye"></i>
+        <h6>9 Comments</h6><i class="fa-regular fa-comment"></i>
+
+      </div>
+      <div class="blgimg">
+        <div class="blgchildimg">
+          <img src="images/m-blog-3.jpg.webp" alt="">
+        </div>
+        <div class="blgchilddesc">
+          <h5>The Glossary Of Telescope</h5>
+          <p>MCSE boot camps have its supporters and its detractors. </p>
+          <button>View More</button>
+        </div>
+
+      </div>
+      <div class="blgdesc">
+        <p>Food,Technology,Politics</p>
+        <h6>Mark wiens</h6><i class="fa-regular fa-user"></i>
+        <h6>8 Jan 2022</h6><i class="fa-regular fa-calendar"></i>
+        <h6>1.5 M Views</h6><i class="fa-regular fa-eye"></i>
+        <h6>3 Comments</h6><i class="fa-regular fa-comment"></i>
+
+      </div>
+      <div class="blgimg">
+        <div class="blgchildimg">
+          <img src="images/m-blog-4.jpg.webp" alt="">
+        </div>
+        <div class="blgchilddesc">
+          <h5>The Night Sky</h5>
+          <p>MCSE boot camps have its supporters and its detractors. </p>
+          <button>View More</button>
+        </div>
+
+      </div>
+      <div class="blgdesc">
+        <p>Food,Technology,Politics</p>
+        <h6>Mark wiens</h6><i class="fa-regular fa-user"></i>
+        <h6>1 Sep 2022</h6><i class="fa-regular fa-calendar"></i>
+        <h6>1.2 M Views</h6><i class="fa-regular fa-eye"></i>
+        <h6>2 Comments</h6><i class="fa-regular fa-comment"></i>
+
+      </div>
+      <div class="blgimg">
+        <div class="blgchildimg">
+          <img src="images/m-blog-5.jpg.webp" alt="">
+        </div>
+        <div class="blgchilddesc">
+          <h5>Telescope-01</h5>
+          <p>MCSE boot camps have its supporters and its detractors. </p>
+          <button>View More</button>
+        </div>
+
+      </div>
+
+      <div class="blgdesc">
+        <p>Food,Technology,Politics</p>
+        <h6>Mark wiens</h6><i class="fa-regular fa-user"></i>
+        <h6>5 Mar 2020</h6><i class="fa-regular fa-calendar"></i>
+        <h6>1.2 M Views</h6><i class="fa-regular fa-eye"></i>
+        <h6>8 Comments</h6><i class="fa-regular fa-comment"></i>
+
+      </div>
+      <div class="blgimg">
+        <div class="blgchildimg">
+          <img src="images/friends-800761_1280.jpg" alt="">
+        </div>
+        <div class="blgchilddesc">
+          <h5>The Photoshoot</h5>
+          <p>MCSE boot camps have its supporters and its detractors. </p>
+          <button>View More</button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+    <!-- footer -->
+    <div class="foot">
+      <div class="footpar">
+        <div class="footitemparent">
+          <div class="ft ftlogo">
+            <div class="ftlogoimg">
+              <h5>Clickz</h5>
+            </div>
+            <div class="ftlogodesc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ea
+                at cumque ad delectus tenetur. Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+            <div class="ftlogoicon">
+              <p>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+              </p>
+            </div>
+          </div>
+          <div class="ft ftnav">
+            <div class="ftnavlogo">
+              <h5>Navigation</h5>
+            </div>
+            <div class="ftlinks">
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="ft ftcontact">
+            <div class="ftcontactlogo">
+              <h5>Contact</h5>
+            </div>
+            <div class="ftcontactdesc">
+              <p>
+                87/A,Green Lane,CA 6732 <br /><br />
+                Real State <br /><br />
+                info@Clickz.com <br />
+                <br />
+                +10 222 555 5689
+              </p>
+            </div>
+          </div>
+          <div class="ft">
+            <div class="ftsublogo">
+              <h5>Subscribe</h5>
+            </div>
+            <input type="email" class="inp" placeholder="Enter Your Email" />
+            <button>SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/snake.min.js"></script>
+    <script>
+      $(".snake").snakeify({ speed: 150 });
+    </script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-36251023-1"]);
+      _gaq.push(["_setDomainName", "jqueryscript.net"]);
+      _gaq.push(["_trackPageview"]);
+
+      (function () {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol
+            ? "https://ssl"
+            : "http://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <script>
+      $(".testimonial-pic img").click(function () {
+        $(this).addClass("active");
+        $(this).siblings().removeClass("active");
+
+        $(".testimonial .content").removeClass("active");
+        $("#" + $(this).attr("data-alt")).addClass("active");
+
+        // tab1  ==  $(this).attr('data-alt')
+      });
+    </script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-36251023-1"]);
+      _gaq.push(["_setDomainName", "jqueryscript.net"]);
+      _gaq.push(["_trackPageview"]);
+
+      (function () {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol
+            ? "https://ssl"
+            : "http://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <script>
+      try {
+        fetch(
+          new Request(
+            "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+            { method: "HEAD", mode: "no-cors" }
+          )
+        )
+          .then(function (response) {
+            return true;
+          })
+          .catch(function (e) {
+            var carbonScript = document.createElement("script");
+            carbonScript.src =
+              "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+            carbonScript.id = "_carbonads_js";
+            document.getElementById("carbon-block").appendChild(carbonScript);
+          });
+      } catch (error) {
+        console.log(error);
+      }
+    </script>
+  </body>
+</html>
