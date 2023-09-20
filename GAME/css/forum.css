@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    /* border: 1px solid; */
+}
+.logo{
+    width: 10%;
+    /* border: 1px solid red; */
+    height: inherit;
+}
+.logo h6{
+    line-height: 80px;
+    font-size: 20px;
+    color: #ffb320;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 15px;
+}
+.menu{
+    width: 75%;
+    /* border: 1px solid red; */
+    height: inherit;
+
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+
+    list-style: none;
+}
+.a{
+    margin-left: 150px;
+}
+.menu ul li a{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 25px;
+    color: white;
+    line-height: 80px;
+    text-decoration: none;
+}
+.menu ul li a:hover
+{
+
+    color: #ffb320;
+}
+
+.login{
+    width: 15%;
+    /* border: 1px solid red; */
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login button{
+    border: none;
+    padding: 10px 20px;
+    background-color: #ffb320;
+}
+
+.login button:hover{
+
+    cursor: pointer;
+}
+.comunitycontainer{
+    height: 650px;
+    border-top: 1px solid #ffb320;
+    background: url('/images/granturismo.webp');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.comunitycontainer h1{
+    margin-top: 150px; 
+    font-family: 'Roboto', sans-serif;    font-size: 100px;
+    color: white;
+    text-align: center;
+    
+}
+.comunitycontainer p{
+    padding: 0px 200px;
+    margin-top: 5px;
+    color: white;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 35px;
+}
+
+.membercontainer{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.membercontainerchild{
+    width: 80%;
+    height: inherit;
+    background-color: #b8b8b8;
+    /* border: 1px solid; */
+}
+.membercontainerchild h5{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.membersparent{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+
+}
+.memberschild1{
+
+    margin-top: 15px;
+    display: flex;
+    width: 80%;
+    height: 220px;
+    background-color: black;
+}
+/* .memdesc{
+    border: 1px solid blue;
+} */
+.memberschild1 .photo{
+    height: 100px;
+    width: 10%;
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+}
+.photo img{
+    width: 100%;
+
+    border-radius: 50%;
+    height: 100%;
+}
+.memberschild2{
+    margin-top: 5px;
+    width: 80%;
+    height: 220px;
+    display: flex;
+    background-color: black;
+
+}
+.memberschild2 .photo{
+    height: 100px;
+    margin-top: 50px;
+    width: 10%;
+    margin-left: 10px;
+
+    border-radius: 50%;
+    /* border: 1px solid red; */
+}
+
+.memberschild3{
+    margin-top: 5px;
+    width: 80%;
+    height: 220px;
+    background-color: black;
+    display: flex;
+}
+.memberschild3 .photo{
+    height: 100px;
+    margin-top: 50px;
+    width: 10%;
+    margin-left: 10px;
+
+    border-radius: 50%;
+    /* border: 1px solid red; */
+}
+
+.memberschild4{
+    margin-top: 5px;
+    width: 80%;
+    height: 220px;
+    display: flex;
+    background-color: black;
+
+}
+
+.memberschild4 .photo{
+    height: 100px;
+    margin-top: 50px;
+    width: 10%;
+    margin-left: 10px;
+
+    border-radius: 50%;
+    /* border: 1px solid red; */
+}
+.memdesc{
+    /* border: 1px solid red; */
+    margin-left: 5%;
+    width: 80%;
+}
+.memdesc h1{
+    color: tomato;
+}
+.memdesc p{
+    margin-top: 5px;
+    font-size: 25px;
+    color: white;
+}
+.memdesc h6{
+    color: white;
+}
+.footer{
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+height: inherit;
+width: 20%;
+/* border: 1px solid white; */
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    line-height: 50px;
+    display: block;
+    text-decoration: none;
+    color: #eef2f6;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.social{
+    height: inherit;
+width: 20%;
+/* border: 1px solid white; */
+
+}
+.social h3{
+    color: #ffb320;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.social p{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.insta{
+    height: inherit;
+    width: 20%;
+    /* border: 1px solid white; */
+
+}
+.insta h6{
+    font-size: 25PX;
+    color: white;
+    text-align: center;
+}
+.box{
+    margin-top: 4px;
+    height: 105px;
+    width: 50%;
+    float: left;
+    /* border: 1px solid white; */
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.gamescontain button{
+    border: none;
+    border-radius: 5%;
+    padding: 10px 30px;
+    background-color: #ffb320;
+    margin-left: 45%;
+    font-size: 18px;
+    
+}
+.gamescontain button:hover{
+    cursor: pointer;
+}
